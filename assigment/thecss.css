@@ -1,3 +1,48 @@
-h1 {
-	color: green;
+* {
+  box-sizing: border-box;
+}
+
+p {
+  border: 2px solid green;
+  background-color: grey;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  overflow: auto;
+  position: relative;
+  padding: 20px 5px 5px 5px;
+  margin: 5px;
+}
+.row {
+  width: 100%;
+}
+@media (min-width: 992px){
+  .trescolumnas {
+    float: left;
+  }
+  .trescolumnas {
+    width: 33.33%
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .doscolumnas , .ultimoelemento {
+    float: left;
+  }
+  .doscolumnas {
+    width: 50%
+  }
+  .ultimoelemento {
+    width: 100%
+  }
+}
+span {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: green;
+  border: 1px solid black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
 }
