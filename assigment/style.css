@@ -29,6 +29,7 @@
 
 .menus {
   margin: 30px auto 15px;
+  border-radius: 20px;
 }
 @media (max-width:  767px){
   .menus{
