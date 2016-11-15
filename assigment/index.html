@@ -6,12 +6,12 @@
 <title>My assigment!</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="js/jquery-2.1.4.min.js">
+<link rel="stylesheet" href="jquery-2.1.4.min.js">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
       <h1 id="title">Delicious Food!</h1>
         <div class="navbar-header">
@@ -24,15 +24,15 @@
         </div>
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs"><a href="#chicken">
+            <li class="visible-xs text-center"><a href="#chicken">
               <span>Chicken</span>
             </a>
             </li>
-            <li class="visible-xs"><a href="#beef">
+            <li class="visible-xs text-center"><a href="#beef">
               <span>Beef</span>
             </a>
             </li>
-            <li class="visible-xs"><a href="#sushi">
+            <li class="visible-xs text-center"><a href="#sushi">
               <span>Sushi</span>
             </a>
             </li>
@@ -44,17 +44,21 @@
     </nav>
 
 </header>
+  <h2 id="menu-title" class="text-center">Super Menu!</h2>
   <div id="chicken" class="container text-center menus">
-    <h2>Chicken</h2>
-    <p>The chicken is special</p>
+    <h3>Chicken</h3>
+    <p>The chicken is special</p><span><a href="#top">To the top.</a></span>
   </div>
     <div id="beef" class="container text-center menus">
-    <h2>Beef</h2>
-    <p>Not as good as the chicken</p>
+    <h3>Beef</h3>
+    <p>Not as good as the chicken</p><span><a href="#top">To the top.</a></span>
   </div>
     <div id="sushi" class="container text-center menus">
-    <h2>Sushi</h2>
-    <p>This is some random text</p>
+    <h3>Sushi</h3>
+    <p>This is some random text</p><span><a href="#top">To the top.</a></span>
   </div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

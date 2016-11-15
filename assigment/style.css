@@ -4,7 +4,7 @@
 
 #header-nav {
   background-color: blue;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 #title{
@@ -14,7 +14,6 @@
 
 }
 #chicken {
-  margin: 70px auto 15px;
   background-color: yellow;
 }
 #beef{
@@ -23,6 +22,7 @@
 #sushi{
   background-color: blue;
 }
+
 .menus {
   margin: 30px auto 15px;
 }
@@ -30,4 +30,7 @@
   .menus{
     width: 80%;
   }
+}
+#menu-title{
+  
 }
