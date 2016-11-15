@@ -5,13 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My assigment!</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/styles.css">.
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="js/jquery-2.1.4.min.js">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
+      <h1 id="title">Delicious Food!</h1>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -22,16 +24,16 @@
         </div>
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li><a href="firstmenu">
-              <span>First</span>
+            <li class="visible-xs"><a href="#chicken">
+              <span>Chicken</span>
             </a>
             </li>
-            <li><a href="secondmenu">
-              <span>Second</span>
+            <li class="visible-xs"><a href="#beef">
+              <span>Beef</span>
             </a>
             </li>
-            <li><a href="thirdmenu">
-              <span>Third</span>
+            <li class="visible-xs"><a href="#sushi">
+              <span>Sushi</span>
             </a>
             </li>
             
@@ -42,23 +44,17 @@
     </nav>
 
 </header>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-<div>TEEEEEEEXTO</div>
-
+  <div id="chicken" class="container text-center menus">
+    <h2>Chicken</h2>
+    <p>The chicken is special</p>
+  </div>
+    <div id="beef" class="container text-center menus">
+    <h2>Beef</h2>
+    <p>Not as good as the chicken</p>
+  </div>
+    <div id="sushi" class="container text-center menus">
+    <h2>Sushi</h2>
+    <p>This is some random text</p>
+  </div>
 </body>
 </html>
