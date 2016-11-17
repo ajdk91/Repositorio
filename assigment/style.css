@@ -5,7 +5,7 @@
 
 #header-nav {
   background-color: #743419;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin-bottom: 0;
   border: 2px black;
   border-radius: 0;
@@ -18,6 +18,7 @@
 
 }
 #chicken {
+  margin-top: 50px;
   background-color: #A88518;
 }
 #beef{
